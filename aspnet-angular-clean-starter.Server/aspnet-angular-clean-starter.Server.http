@@ -1,0 +1,6 @@
+@aspnet_angular_clean_starter.Server_HostAddress = http://localhost:5007
+
+GET {{aspnet_angular_clean_starter.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="aspnet-angular-clean-starter.client/aspnet-angular-clean-starter.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="aspnet-angular-clean-starter.Server/aspnet-angular-clean-starter.Server.csproj" />
+</Solution>

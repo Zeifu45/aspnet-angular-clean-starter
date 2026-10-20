@@ -1,0 +1,72 @@
+## ==========================================
+## ASP.NET Core & Visual Studio / MSBuild
+## ==========================================
+
+# Dossiers de compilation C# / .NET (partout dans l'arborescence)
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# Dossier d'environnement utilisateur et caches Visual Studio
+.vs/
+.vscode/
+*.user
+*.userossc
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Fichiers de log et rapports
+*.log
+*.coverage
+*.coveragexml
+
+# Fichiers de publication / build local
+*.pubxml
+*.pubxml.user
+
+# Fichiers secrets / configuration locale .NET
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## ==========================================
+## Angular & Node / npm
+## ==========================================
+
+# Dépendances Node (partout)
+**/node_modules/
+
+# Sortie de build Angular
+**/dist/
+**/.angular/
+
+# Cache npm et logs d'erreurs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Fichiers d'environnement locaux Angular
+**/src/environments/environment.development.ts
+**/src/environments/environment.local.ts
+
+## ==========================================
+## Système d'exploitation & divers
+## ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Certificats locaux / temporaires
+*.pfx
+*.cer
+*.crt
